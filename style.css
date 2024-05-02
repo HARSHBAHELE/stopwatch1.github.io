@@ -1,0 +1,85 @@
+* {
+
+}
+body {
+  background-image: url("https://img.freepik.com/premium-photo/abstract-floral-watercolor-background-paper_949459-3814.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  margin-left: 580px;
+  margin-top: 250px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+}
+.butns {
+  padding-left: 520px;
+  padding-top: 30px;
+}
+#start {
+  height: 40px;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: transparent;
+  
+}
+#reset {
+  height: 40px;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: transparent;
+  
+}
+#stop {
+  height: 40px;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: transparent;
+}
+#stop:hover {
+  transform: scale(1.09);
+}
+#reset:hover {
+  transform: scale(1.09);
+}
+#start:hover {
+  transform: scale(1.09);
+}
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for smaller screens (phones) here */
+  .main {
+    margin-left: 20px; /* Adjust margin for smaller screens */
+    margin-top: 100px; /* Adjust margin for smaller screens */
+    width: 70%; /* Adjust width for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .butns {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-top: 20px; /* Adjust padding for smaller screens */
+  }
+
+  #start,
+  #reset,
+  #stop {
+    height: 30px; /* Adjust button height for smaller screens */
+    width: 60px; /* Adjust button width for smaller screens */
+    margin-left: 10px; /* Adjust margin between buttons for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
